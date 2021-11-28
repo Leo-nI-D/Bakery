@@ -1,0 +1,117 @@
+/* fonts: 
+font-family: 'Nunito', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Quicksand', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+
+.logo {
+    display: block;
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
+}
+
+.nav-menu {
+    width: 991px;
+    max-width: 100%;
+    ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-menu-list {
+    text-align: center;
+    font-family: 'Princess Sofia', cursive;
+}
+
+.nav-menu-list-item {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 50px;
+
+}
+
+.nav-menu-list-item-link {
+    font-size: 35px;
+    line-height: 56px;
+    color: #000;
+}
+
+.nav-menu-list-item-link:hover {
+    color: #c5621e;
+}
+
+.nav-menu-list-item-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    border-radius: 40px;
+    transform-origin: center;
+    transform: scaleX(0);
+    background: #c5621e;
+    transition: 0.3s;
+}
+
+.nav-menu-list-item-link:hover::after {
+    transform: scaleX(1);
+}
+
+.hero {
+    background: url(../img/Bread.png) no-repeat,
+        url(../img/Orange-shadow.png) no-repeat;
+    width: 1440px;
+    height: 960px;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: normal;
+    color: #FEF4F4;
+    font-size: 144px;
+    line-height: 196px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-span {
+    font-family: 'Parisienne', cursive;
+}
+
+.subtitle {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.buy-btn {
+    width: 449px;
+    height: 90px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    background: #D38753;
+    mix-blend-mode: normal;
+    border-radius: 40px;
+}
